@@ -1221,7 +1221,7 @@ ace.define('ace/autocomplete/popup', ['require', 'exports', 'module', 'ace/virtu
             });
          }
 
-         // Antares additions
+         // Elfen additions
          function addIconToken (meta) {
             let iconClass;
 

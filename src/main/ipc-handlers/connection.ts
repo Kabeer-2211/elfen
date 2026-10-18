@@ -122,7 +122,7 @@ export default (connections: Record<string, antares.Client>) => {
          port: +conn.port,
          user: conn.user,
          password: conn.password,
-         application_name: 'Antares SQL',
+         application_name: 'Elfen',
          readonly: conn.readonly,
          connectionString: conn.connString,
          database: '',

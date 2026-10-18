@@ -62,7 +62,7 @@
             <li
                class="footer-element footer-link"
                :title="t('application.reportABug')"
-               @click="openOutside('https://github.com/antares-sql/antares/issues')"
+               @click="openOutside('https://github.com/Kabeer-2211/elfen/issues')"
             >
                <BaseIcon icon-name="mdiBug" :size="18" />
             </li>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-   <id>it.fabiodistasio.AntaresSQL</id>
-   <name>Antares SQL</name>
+   <id>io.github.Kabeer2211.Elfen</id>
+   <name>Elfen</name>
    <metadata_license>CC0-1.0</metadata_license>
    <project_license>MIT</project_license>
-   <developer_name>Fabio Di Stasio</developer_name>
+   <developer_name>Kabeer-2211</developer_name>
    <summary>A modern, fast and productivity driven SQL client with a focus in UX</summary>
-   <url type="homepage">https://antares-sql.app/</url>
-   <url type="bugtracker">https://github.com/antares-sql/antares/issues</url>
-   <url type="help">https://github.com/antares-sql/antares/discussions</url>
-   <url type="donation">https://paypal.me/fabiodistasio</url>
+   <url type="homepage">https://github.com/Kabeer-2211/elfen</url>
+   <url type="bugtracker">https://github.com/Kabeer-2211/elfen/issues</url>
+   <url type="help">https://github.com/Kabeer-2211/elfen/discussions</url>
    <description>
-      <p>Antares is an SQL client that aims to become an useful and complete tool, especially for developers. </p>
+      <p>Elfen is an SQL client that aims to become a useful and complete tool, especially for developers. </p>
       <p>The main goal is to develop a totally free, full featured, cross platform and open source alternative.
 A modern application created with minimalism and semplicity in mind, with features in the right places, not hundreds of tiny buttons, nested tabs or submenu; productivity comes first.</p>
       <p>Supported database: </p>

@@ -134,11 +134,10 @@ export class SqlExporter extends BaseExporter {
    async getSqlHeader () {
       const serverVersion = await this.getServerVersion();
       const header = `************************************************************
-Antares - SQL Client
+Elfen - SQL Client
 Version ${process.env.PACKAGE_VERSION}
 
-https://antares-sql.app/
-https://github.com/antares-sql/antares
+https://github.com/Kabeer-2211/elfen
 
 Host: ${this.host} (${serverVersion})
 Database: ${this.schemaName}

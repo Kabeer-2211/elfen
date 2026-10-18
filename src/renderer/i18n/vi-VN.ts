@@ -266,7 +266,7 @@ export const viVN = {
       updateAvailable: 'Cập nhật có sẵn',
       downloadingUpdate: 'Đang tải bản cập nhật',
       updateDownloaded: 'Đã tải bản cập nhạt',
-      restartToInstall: 'Khởi động lại Antares để cài đặt',
+      restartToInstall: 'Khởi động lại Elfen để cài đặt',
       notificationsTimeout: 'Thông báo hết giờ',
       openNewTab: 'Mở trong tab mới',
       unsavedChanges: 'Chưa lưu lại thay đổi',

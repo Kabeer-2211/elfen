@@ -285,7 +285,7 @@ export const itIT = {
       updateAvailable: 'Aggiornamento disponibile',
       downloadingUpdate: 'Download dell\'aggiornamento',
       updateDownloaded: 'Aggiornamento scaricato',
-      restartToInstall: 'Riavvia Antares per installare l\'aggiornamento',
+      restartToInstall: 'Riavvia Elfen per installare l\'aggiornamento',
       notificationsTimeout: 'Timeout Notifiche',
       openNewTab: 'Apri nuova scheda',
       unsavedChanges: 'Modifiche non salvate',

@@ -1,10 +1,10 @@
 {
-  "name": "antares",
-  "productName": "Antares",
+  "name": "elfen",
+  "productName": "Elfen",
   "version": "0.7.35",
   "description": "A modern, fast and productivity driven SQL client with a focus in UX.",
   "license": "MIT",
-  "repository": "https://github.com/antares-sql/antares.git",
+  "repository": "https://github.com/Kabeer-2211/elfen.git",
   "scripts": {
     "debug": "npm run rebuild:electron && npm run debug-runner",
     "debug-runner": "node scripts/devRunner.js --remote-debug",
@@ -30,11 +30,11 @@
   },
   "author": "Fabio Di Stasio <info@fabiodistasio.it>",
   "main": "./dist/main.js",
-  "antares": {
+  "elfen": {
     "devtoolsId": "nhdogjmejiglipccpnnnanhbledajbpd"
   },
   "build": {
-    "appId": "com.fabio286.antares",
+    "appId": "com.kabeer2211.elfen",
     "artifactName": "${productName}-${version}-${os}_${arch}.${ext}",
     "asar": true,
     "buildDependenciesFromSource": true,
@@ -98,12 +98,12 @@
       "artifactName": "${productName}-${version}-portable.exe"
     },
     "appx": {
-      "displayName": "Antares SQL",
+      "displayName": "Elfen",
       "backgroundColor": "transparent",
       "showNameOnTiles": true,
-      "identityName": "62514FabioDiStasio.AntaresSQLClient",
+      "identityName": "Kabeer2211.Elfen",
       "publisher": "CN=1A2729ED-865C-41D2-9038-39AE2A63AA52",
-      "applicationId": "FabioDiStasio.AntaresSQLClient"
+      "applicationId": "Elfen"
     },
     "dmg": {
       "contents": [

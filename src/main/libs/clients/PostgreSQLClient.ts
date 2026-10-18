@@ -150,7 +150,7 @@ export class PostgreSQLClient extends BaseClient {
    }
 
    async getDbConfig () {
-      this._params.application_name = 'Antares SQL';
+      this._params.application_name = 'Elfen';
 
       const dbConfig = {
          host: this._params.host,
@@ -1215,7 +1215,7 @@ export class PostgreSQLClient extends BaseClient {
 
    async alterTrigger ({ trigger } : {trigger: antares.AlterTriggerParams}) {
       const tempTrigger = Object.assign({}, trigger);
-      tempTrigger.name = `Antares_${tempTrigger.name}_tmp`;
+      tempTrigger.name = `Elfen_${tempTrigger.name}_tmp`;
 
       try {
          await this.createTrigger(tempTrigger);
@@ -1318,7 +1318,7 @@ export class PostgreSQLClient extends BaseClient {
 
    async alterRoutine ({ routine }: {routine: antares.AlterRoutineParams}) {
       const tempProcedure = Object.assign({}, routine);
-      tempProcedure.name = `Antares_${tempProcedure.name}_tmp`;
+      tempProcedure.name = `Elfen_${tempProcedure.name}_tmp`;
 
       try {
          await this.createRoutine(tempProcedure);
@@ -1440,7 +1440,7 @@ export class PostgreSQLClient extends BaseClient {
     */
    async alterFunction ({ func }: { func: antares.AlterFunctionParams }) {
       const tempProcedure = Object.assign({}, func);
-      tempProcedure.name = `Antares_${tempProcedure.name}_tmp`;
+      tempProcedure.name = `Elfen_${tempProcedure.name}_tmp`;
 
       try {
          await this.createFunction(tempProcedure);

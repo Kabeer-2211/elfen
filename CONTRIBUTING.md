@@ -1,10 +1,10 @@
 # Contributors Guide
 
-Antares SQL is an application based on [Electron.js](https://www.electronjs.org/) that uses [Vue.js](https://vuejs.org/) and [Spectre.css](https://picturepan2.github.io/spectre/) as frontend frameworks.  
+Elfen is an application based on [Electron.js](https://www.electronjs.org/) that uses [Vue.js](https://vuejs.org/) and [Spectre.css](https://picturepan2.github.io/spectre/) as frontend frameworks.
 For the build process it takes advantage of [electron-builder](https://www.electron.build/).  
 This application uses [Pinia🍍](https://pinia.vuejs.org/) as application state manager and [electron-store](https://github.com/sindresorhus/electron-store) to save the various settings on disc.  
 This guide aims to provide useful information and guidelines to everyone wants to contribute with this open-source project.
-For every other question related to this project please [contact me](https://github.com/Fabio286).
+For every other question related to this project please [contact me](https://github.com/Kabeer-2211).
 
 ## Project Structure
 
@@ -44,7 +44,7 @@ In this folder is located the structure of Vue frontend application.
 
 ## Build
 
-The command to build Antares SQL locally is `npm run build`. 
+The command to build Elfen locally is `npm run build`.
 
 ## Conventions
 
@@ -85,7 +85,7 @@ Please, use if possible **template literals** to compose strings and **avoid unn
 ### Commits
 
 The commit style adopted for this project is [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).  
-Basicly it's important to have **single scoped commits with a prefix** that follows this style because Antares SQL uses [standard-version](https://github.com/conventional-changelog/standard-version) to generate new releases and [CHANGELOG.md](https://github.com/Fabio286/antares/blob/master/CHANGELOG.md) file to track all notable changes.  
+Basicly it's important to have **single scoped commits with a prefix** that follows this style because Elfen uses [standard-version](https://github.com/conventional-changelog/standard-version) to generate new releases and [CHANGELOG.md](./CHANGELOG.md) file to track all notable changes.
 For Visual Studio Code users may be useful [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) extension.
 
 ## Debug
@@ -96,5 +96,5 @@ For Visual Studio Code users may be useful [Conventional Commits](https://market
 npm run debug
 ```
 
-After running the debug mode Antares will listen on port 9222 (main process) for a debugger.  
-On **Visual Studio Code** just launch "*Electron: Main*" configurations after running Antares in debug mode.
+After running the debug mode Elfen will listen on port 9222 (main process) for a debugger.
+On **Visual Studio Code** just launch "*Electron: Main*" configurations after running Elfen in debug mode.

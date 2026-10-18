@@ -283,7 +283,7 @@ export const idID = {
       updateAvailable: 'Pembaruan tersedia',
       downloadingUpdate: 'Mengunduh pembaruan',
       updateDownloaded: 'Pembaruan diunduh',
-      restartToInstall: 'Mulai ulang Antares untuk menginstal',
+      restartToInstall: 'Mulai ulang Elfen untuk menginstal',
       notificationsTimeout: 'Batas waktu pemberitahuan',
       openNewTab: 'Buka tab baru',
       unsavedChanges: 'Perubahan belum disimpan',

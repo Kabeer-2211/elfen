@@ -292,7 +292,7 @@ export const caES = {
       updateAvailable: 'Actualització disponible',
       downloadingUpdate: 'Descarregant actualització',
       updateDownloaded: 'Actualització descarregada',
-      restartToInstall: 'Reinicia Antares per instal·lar',
+      restartToInstall: 'Reinicia Elfen per instal·lar',
       notificationsTimeout: 'Temps d\'espera de notificacions',
       openNewTab: 'Obre una nova pestanya',
       unsavedChanges: 'Canvis no desats',

@@ -103,7 +103,7 @@
                                  <div class="col-4 col-sm-12 px-2 p-vcentered">
                                     <small class="d-block" :style="'line-height: 1.1; font-size: 70%;'">
                                        {{ t('application.missingOrIncompleteTranslation') }}<br>
-                                       <a class="text-bold c-hand" @click="openOutside('https://github.com/antares-sql/antares/wiki/Translate-Antares')">{{ t('application.findOutHowToContribute') }}</a>
+                                       <a class="text-bold c-hand" @click="openOutside('https://github.com/Kabeer-2211/elfen')">{{ t('application.findOutHowToContribute') }}</a>
                                     </small>
                                  </div>
                               </div>
@@ -395,7 +395,7 @@
                            <a
                               class="c-hand"
                               :style="'align-items: center; display: inline-flex;'"
-                              @click="openOutside('https://github.com/antares-sql/antares')"
+                              @click="openOutside('https://github.com/Kabeer-2211/elfen')"
                            ><BaseIcon
                               icon-name="mdiGithub"
                               class="d-inline mr-1"
@@ -403,7 +403,7 @@
                            /> GitHub</a> • <a
                               class="c-hand"
                               :style="'align-items: center; display: inline-flex;'"
-                              @click="openOutside('https://fosstodon.org/@AntaresSQL')"
+                              @click="openOutside('https://github.com/Kabeer-2211/elfen')"
                            ><BaseIcon
                               icon-name="mdiMastodon"
                               class="d-inline mr-1"
@@ -411,13 +411,13 @@
                            /> Mastodon</a> • <a
                               class="c-hand"
                               :style="'align-items: center; display: inline-flex;'"
-                              @click="openOutside('https://antares-sql.app/')"
+                              @click="openOutside('https://github.com/Kabeer-2211/elfen')"
                            ><BaseIcon
                               icon-name="mdiWeb"
                               class="d-inline mr-1"
                               :size="16"
                            /> Website</a><br>
-                           <small>{{ t('general.author') }} <a class="c-hand" @click="openOutside('https://github.com/Fabio286')">{{ appAuthor }}</a></small><br>
+                           <small>{{ t('general.author') }} <a class="c-hand" @click="openOutside('https://github.com/Kabeer-2211')">{{ appAuthor }}</a></small><br>
                         </p>
                         <div class="mb-2">
                            <small class="d-block text-uppercase">{{ t('general.contributors') }}:</small>
@@ -507,7 +507,7 @@ const {
 } = applicationStore;
 const { getWorkspace } = workspacesStore;
 
-const appAuthor = 'Fabio Di Stasio';
+const appAuthor = 'Kabeer-2211';
 const pageSizes = [30, 40, 100, 250, 500, 1000];
 const contributors = process.env.APP_CONTRIBUTORS;
 const appLogo = require('../images/logo.svg');

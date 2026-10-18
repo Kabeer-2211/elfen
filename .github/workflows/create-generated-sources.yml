@@ -23,7 +23,7 @@ jobs:
          cd flatpak-builder-tools/node
          pipx install .
 
-      # Install Antares
+      # Install Elfen
       - name: Check out Git repository
         uses: actions/checkout@v3
 

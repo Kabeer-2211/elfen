@@ -310,7 +310,7 @@ export const ruRU = {
       updateAvailable: 'Доступно обновление',
       downloadingUpdate: 'Скачать обновление',
       updateDownloaded: 'Обновление скачано',
-      restartToInstall: 'Перезапустить Antares для установки',
+      restartToInstall: 'Перезапустить Elfen для установки',
       notificationsTimeout: 'Тайм-аут уведомлений',
       openNewTab: 'Открыть новую вкладку',
       unsavedChanges: 'Несохраненные изменения',
@@ -383,7 +383,7 @@ export const ruRU = {
       csvExportOptions: 'Опции экспорта CSV',
       exportData: 'Экспорт данных',
       exportDataExplanation:
-            'Экспорт сохранённых соединений в Antares. Вам будет предложено ввести пароль для шифрования экспортируемого файла.',
+            'Экспорт сохранённых соединений в Elfen. Вам будет предложено ввести пароль для шифрования экспортируемого файла.',
       importData: 'Импорт данных',
       importDataExplanation: 'Импортирует файл .antares, содержащий соединения. Вам нужно будет ввести пароль, заданный во время экспорта.',
       includeConnectionPasswords: 'Включить пароли соединений',

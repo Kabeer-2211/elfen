@@ -23,7 +23,7 @@ export interface IpcResponse<T = any> {
 }
 
 /**
- * Pasameters needed to create a new Antares connection to a database
+ * Parameters needed to create a new Elfen connection to a database
  */
 export interface ClientParams {
    client: ClientCode;

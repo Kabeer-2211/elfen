@@ -354,7 +354,7 @@ export class SQLiteClient extends BaseClient {
          await this.raw('BEGIN TRANSACTION');
          await this.raw('PRAGMA foreign_keys = 0');
 
-         const tmpName = `Antares_${table}_tmp`;
+         const tmpName = `Elfen_${table}_tmp`;
          await this.raw(`CREATE TABLE "${tmpName}" AS SELECT * FROM "${table}"`);
 
          // Get table triggers before drop
@@ -485,7 +485,7 @@ export class SQLiteClient extends BaseClient {
 
    async alterTrigger ({ trigger } : {trigger: antares.AlterTriggerParams}) {
       const tempTrigger = Object.assign({}, trigger);
-      tempTrigger.name = `Antares_${tempTrigger.name}_tmp`;
+      tempTrigger.name = `Elfen_${tempTrigger.name}_tmp`;
 
       try {
          await this.createTrigger(tempTrigger);

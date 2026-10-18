@@ -4,9 +4,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const unzip = require('unzip-crx-3');
-const { antares } = require('../package.json');
+const { elfen } = require('../package.json');
 
-const extensionID = antares.devtoolsId;
+const extensionID = elfen.devtoolsId;
 const chromiumVersion = '124';
 const destFolder = path.resolve(__dirname, `../misc/${extensionID}`);
 const filePath = path.resolve(__dirname, `${destFolder}/${extensionID}.crx`);

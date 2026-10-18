@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=Antares SQL
-Exec=startantares
+Name=Elfen
+Exec=startelfen
 Terminal=false
 Type=Application
-Icon=it.fabiodistasio.AntaresSQL
-StartupWMClass=antares
+Icon=io.github.Kabeer2211.Elfen
+StartupWMClass=elfen
 Comment=A modern, fast and productivity driven SQL client with a focus in UX
 Categories=Development;

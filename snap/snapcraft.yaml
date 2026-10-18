@@ -1,8 +1,8 @@
-name: antares
-adopt-info: antares
+name: elfen
+adopt-info: elfen
 summary: Open source SQL client made to be simple and complete.
 description: |
-  Antares is an SQL client that aims to become an useful and complete tool, especially for developers.
+  Elfen is an SQL client that aims to become a useful and complete tool, especially for developers.
   The target is to support as many databases as possible, and all major operating systems, including the ARM versions.
 base: core22
 
@@ -17,7 +17,7 @@ layout:
     bind-file: $SNAP/etc/nsswitch.conf
 
 parts:
-  antares:
+  elfen:
     plugin: dump
     source: .
     override-build: |
@@ -26,12 +26,12 @@ parts:
       if [ "${ARCHITECTURE}" = "amd64" ]; then
         FILTER="amd64.deb"
       else
-        echo "ERROR! Antares only produces debs for amd64. Failing the build here."
+        echo "ERROR! Elfen only produces debs for amd64. Failing the build here."
         exit 1
       fi
       # Get the latest releases json
       echo "Get GitHub releases..."
-      wget --quiet https://api.github.com/repos/fabio286/antares/releases -O releases.json
+      wget --quiet https://api.github.com/repos/Kabeer-2211/elfen/releases -O releases.json
       # Get the version from the tag_name and the download URL.
       VERSION=$(jq . releases.json | grep tag_name | head -1 | cut -d'"' -f4 | sed s'/release-//')
       DEB_URL=$(cat releases.json | jq -r ".[0].assets[] | select(.name | test(\"${FILTER}\")) | .browser_download_url")
@@ -44,10 +44,10 @@ parts:
       rm -f "${SNAPCRAFT_PART_INSTALL}/${DEB}" 2>/dev/null
       echo $VERSION > $SNAPCRAFT_STAGE/version
       # Correct path to icon.
-      sed -i 's|Icon=antares|Icon=/usr/share/icons/hicolor/256x256/apps/antares\.png|g' ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/antares.desktop
-      # Delete usr/bin/antares, it's a broken symlink pointing outside the snap.
-      rm -f ${SNAPCRAFT_PART_INSTALL}/usr/bin/antares
-      chmod -s ${SNAPCRAFT_PART_INSTALL}/opt/Antares/chrome-sandbox
+      sed -i 's|Icon=elfen|Icon=/usr/share/icons/hicolor/256x256/apps/elfen\.png|g' ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/elfen.desktop
+      # Delete usr/bin/elfen, it's a broken symlink pointing outside the snap.
+      rm -f ${SNAPCRAFT_PART_INSTALL}/usr/bin/elfen
+      chmod -s ${SNAPCRAFT_PART_INSTALL}/opt/Elfen/chrome-sandbox
       snapcraftctl set-version "$(echo $VERSION)"
     build-packages:
       - dpkg
@@ -117,7 +117,7 @@ parts:
       - libgbm1
       - libxcb-dri3-0
   cleanup:
-    after: [antares]
+    after: [elfen]
     plugin: nil
     build-snaps: [gnome-42-2204]
     override-prime: |
@@ -143,9 +143,9 @@ parts:
       - etc/nsswitch.conf
 
 apps:
-  antares:
-    command: opt/Antares/antares --no-sandbox
-    desktop: usr/share/applications/antares.desktop
+  elfen:
+    command: opt/Elfen/elfen --no-sandbox
+    desktop: usr/share/applications/elfen.desktop
     extensions: [gnome]
     plugs:
       - browser-support

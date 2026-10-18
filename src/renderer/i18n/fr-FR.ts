@@ -289,7 +289,7 @@ export const frFR = {
       updateAvailable: 'Mise à jour disponible',
       downloadingUpdate: 'Téléchargement de la mise à jour',
       updateDownloaded: 'Mise à jour téléchargée',
-      restartToInstall: 'Redémarrer Antares pour installer',
+      restartToInstall: 'Redémarrer Elfen pour installer',
       notificationsTimeout: 'Délai d\'attente pour les notifications',
       openNewTab: 'Ouvrir un nouvel onglet',
       unsavedChanges: 'Modifications non sauvegardées',

@@ -313,7 +313,7 @@ export const jaJP = {
       updateAvailable: '更新が利用可能です。',
       downloadingUpdate: '更新をダウンロード中',
       updateDownloaded: '更新をダウンロード済',
-      restartToInstall: 'Antares を再起動してインストールしてください。',
+      restartToInstall: 'Elfen を再起動してインストールしてください。',
       includeBetaUpdates: 'ベータ版アップデートを含む',
       notificationsTimeout: '通知のタイムアウト',
       openNewTab: '新しいタブを開く',

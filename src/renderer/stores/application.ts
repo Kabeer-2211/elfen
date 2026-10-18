@@ -9,7 +9,7 @@ export type UpdateStatus = 'noupdate' | 'available' | 'checking' | 'nocheck' | '
 
 export const useApplicationStore = defineStore('application', {
    state: () => ({
-      appName: 'Antares - SQL Client',
+      appName: 'Elfen - SQL Client',
       appVersion: process.env.PACKAGE_VERSION || '0',
       cachedVersion: persistentStore.get('cached_version', '0') as string,
       isLoading: false,

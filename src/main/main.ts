@@ -34,7 +34,7 @@ async function createMainWindow () {
       minWidth: 900,
       minHeight: 550,
       show: !isWindows,
-      title: 'Antares SQL',
+      title: 'Elfen',
       icon: nativeImage.createFromDataURL(icon.default),
       webPreferences: {
          nodeIntegration: true,
@@ -152,8 +152,8 @@ app.on('ready', async () => {
 
 app.on('browser-window-created', (event, window) => {
    if (isDevelopment) {
-      const { antares } = require('../../package.json');
-      const extensionPath = path.resolve(__dirname, `../../misc/${antares.devtoolsId}`);
+      const { elfen } = require('../../package.json');
+      const extensionPath = path.resolve(__dirname, `../../misc/${elfen.devtoolsId}`);
       window.webContents.session.loadExtension(extensionPath, { allowFileAccess: true }).catch(console.error);
    }
 

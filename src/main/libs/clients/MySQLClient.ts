@@ -1204,7 +1204,7 @@ export class MySQLClient extends BaseClient {
 
    async alterTrigger ({ trigger } : {trigger: antares.AlterTriggerParams}) {
       const tempTrigger = Object.assign({}, trigger);
-      tempTrigger.name = `Antares_${tempTrigger.name}_tmp`;
+      tempTrigger.name = `Elfen_${tempTrigger.name}_tmp`;
 
       try {
          await this.createTrigger(tempTrigger);
@@ -1299,7 +1299,7 @@ export class MySQLClient extends BaseClient {
 
    async alterRoutine ({ routine }: {routine: antares.AlterRoutineParams}) {
       const tempProcedure = Object.assign({}, routine);
-      tempProcedure.name = `Antares_${tempProcedure.name}_tmp`;
+      tempProcedure.name = `Elfen_${tempProcedure.name}_tmp`;
 
       try {
          await this.createRoutine(tempProcedure);
@@ -1414,7 +1414,7 @@ export class MySQLClient extends BaseClient {
 
    async alterFunction ({ func }: { func: antares.AlterFunctionParams }) {
       const tempProcedure = Object.assign({}, func);
-      tempProcedure.name = `Antares_${tempProcedure.name}_tmp`;
+      tempProcedure.name = `Elfen_${tempProcedure.name}_tmp`;
 
       try {
          await this.createFunction(tempProcedure);

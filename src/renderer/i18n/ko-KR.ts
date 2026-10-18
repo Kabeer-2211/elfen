@@ -284,7 +284,7 @@ export const koKR = {
       updateAvailable: '업데이트 가능',
       downloadingUpdate: '업데이트 다운로드 중',
       updateDownloaded: '업데이트 다운로드 완료',
-      restartToInstall: 'Antares를 다시 실행해주세요',
+      restartToInstall: 'Elfen를 다시 실행해주세요',
       notificationsTimeout: '알림 시간 초과',
       openNewTab: '새 탭 열기',
       unsavedChanges: '저장되지 않은 변경사항',

@@ -291,7 +291,7 @@ export const ptBR = {
       updateAvailable: 'Atualização disponível',
       downloadingUpdate: 'Baixando a atualização',
       updateDownloaded: 'Atualização baixada',
-      restartToInstall: 'Reinicie o Antares para instalar',
+      restartToInstall: 'Reinicie o Elfen para instalar',
       notificationsTimeout: 'Notificações de timeout',
       openNewTab: 'Abrir nova aba',
       unsavedChanges: 'Alterações não salvas',
